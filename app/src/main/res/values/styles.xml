@@ -1,0 +1,20 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- ... other style attributes ... -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+
+    <!-- Add the AppBarOverlay style -->
+    <item name="colorControlNormal">#FFF</item>
+    <item name="colorControlHighlight">#FFF</item>
+    <item name="colorControlActivated">#FFF</item>
+    <!-- ... other style attributes ... -->
+</style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

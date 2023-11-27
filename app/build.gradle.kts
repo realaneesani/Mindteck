@@ -1,17 +1,18 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 
 }
 
 android {
     namespace = "com.helium4.mindtek"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.helium4.mindtek"
         minSdk = 27
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -36,10 +37,18 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding =true
     }
 }
 
 dependencies {
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-livedata:2.6.2")
+    implementation ("androidx.viewpager2:viewpager2:1.0.0")
+    kapt ("androidx.lifecycle:lifecycle-compiler:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation ("androidx.activity:activity-ktx:1.8.1")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
