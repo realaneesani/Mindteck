@@ -1,3 +1,3 @@
 # Mindteck
 
-https://youtube.com/shorts/VpMyPLo6auI?feature=share
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
